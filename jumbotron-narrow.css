@@ -15,11 +15,16 @@ h1, h2, h3, h4, h5, h6
     font-family: Rancho, serif;
 }
 
-#text-headliner {
+#text-headliner
+{
     font-family: Flavors, cursive;
 }
 
-#container-map { min-height: 300px; text-align: center;}
+#container-map
+{
+    min-height: 300px;
+    text-align: center;
+}
 
 #containerSheet
 {
@@ -62,7 +67,7 @@ h1, h2, h3, h4, h5, h6
     padding-top: 19px;
     color: #265400;
     text-align: center;
-  	font-size: xx-large;
+    font-size: xx-large;
 }
 
 /* Customize container */
@@ -71,7 +76,7 @@ h1, h2, h3, h4, h5, h6
 {
     .container
     {
-        max-width: 730px;
+        width: 960px;
     }
 }
 

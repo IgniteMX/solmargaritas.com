@@ -14,6 +14,9 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!-- Lightbox CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-lightbox/0.7.0/bootstrap-lightbox.min.css"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-lightbox/0.7.0/bootstrap-lightbox.min.js"></script>
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <link class="" href='http://fonts.googleapis.com/css?family=Rancho:regular|Gudea:regular,italic,700&subset=latin' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Flavors&text=We look forward to treating you to our hospitality and authentic Mexican dishes." rel="stylesheet">
@@ -70,7 +73,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <h3>Our Food</h3> 
-                            <iframe src="https://player.vimeo.com/video/154819340?title=0&byline=0&portrait=0" width="440" height="248" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>                             
+                            <iframe src="https://player.vimeo.com/video/154819340?title=0&byline=0&portrait=0" width="440" height="248" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             <h3>Our Beverages</h3> 
                             <p>We offer a full beverage and dessert menu! We proudly serve Coca-Cola products and Mexican drinks.</p> 
                             <ul>
@@ -91,6 +94,17 @@
                             <h3>
     Daily Lunch Specials</h3>
                             <p><b>Mon - Sat</b> 11:00 AM - 3:00 PM                            </p>
+                            <a data-toggle="lightbox" href="#lightbox">Open Lightbox</a>
+                            <div id="lightbox" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class='lightbox-content'>
+                                    <img src="http://res.cloudinary.com/ignitemx/image/upload/v1475046852/Sol-Margaritas/burrito.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3"> 
+                            <a href="#" class="thumbnail"> 
+                                <img src="http://res.cloudinary.com/ignitemx/image/upload/v1475046852/Sol-Margaritas/burrito.jpg" alt=""> 
+                            </a>                             
                         </div>
                     </div>
                 </div>
